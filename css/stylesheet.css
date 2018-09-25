@@ -1,1 +1,49 @@
 /* Your amazing stylesheet */
+
+body {
+	font-family: Roboto;
+}
+header {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0px 100px;
+	align-items: center;
+	padding: 0px 0px 10px 0px;
+}
+header #logo_area #logo1 {
+	background-color: #E12218;
+	color: white;
+	padding: 5px;
+}
+header #logo_area {
+	font-size: 30px;
+}
+header nav ul {
+	font-size: 12px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+header nav ul li {
+	padding-left: 20px;
+}
+#banner {
+	background-color: #E22319;
+	color: #FFFFFF;
+	padding: 160px 0px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+#banner #banner1 {
+	font-size: 30px;
+	font-weight: 900;
+	padding-bottom: 10px;
+}
+#banner #banner2 {
+	font-size: 20px;
+	font-weight: 100;
+}
