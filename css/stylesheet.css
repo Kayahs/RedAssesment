@@ -57,10 +57,54 @@ header nav ul li {
 	font-size:25px;
 	font-weight: 900;
 	padding-bottom: 15px;
+	color: #333333;
 }
 #about #about2 {
 	line-height: 35px;
+	color: #666666;
 }
-main {
-
+#contact {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 30px 30% 50px 30%; 
+}
+#contact #contact1 {
+	font-size:25px;
+	font-weight: 900;
+	padding-bottom: 15px;
+	color: #333333;
+}
+#contact #contact2 {
+	padding-bottom: 35px;
+	color: #666666;
+}
+#contact #contactform {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+input[type=text] {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  color: #666666;
+}
+label {
+	color: #333333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+input[type=submit] {
+	width: 200px;
+	background-color: #E22319;
+	margin-top: 20px;
+	padding: 20px 5px;
+	text-align: center;
+	border: transparent;
+	color: white;
+	font-weight: 900;
+	border-radius: 30px;
 }
