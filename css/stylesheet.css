@@ -10,7 +10,7 @@ header {
 	justify-content: space-between;
 	margin: 0px 100px;
 	align-items: center;
-	padding: 0px 0px 10px 0px;
+	padding: 10px 0px 15px 0px;
 }
 header #logo_area #logo1 {
 	background-color: #E12218;
@@ -46,4 +46,21 @@ header nav ul li {
 #banner #banner2 {
 	font-size: 20px;
 	font-weight: 100;
+}
+#about {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 30px 30% 50px 30%;
+}
+#about #about1 {
+	font-size:25px;
+	font-weight: 900;
+	padding-bottom: 15px;
+}
+#about #about2 {
+	line-height: 35px;
+}
+main {
+
 }
